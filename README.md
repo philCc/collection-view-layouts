@@ -75,7 +75,7 @@ Configuration of custom layouts is pretty easy:
 var layout: BaseLayout = TagsLayout()
 
 layout.delegate = self
-layout.delegate = ItemsPadding(horizontal: 10, vertical: 10)
+layout.contentPadding = ItemsPadding(horizontal: 10, vertical: 10)
 layout.cellsPadding = ItemsPadding(horizontal: 8, vertical: 8)
 
 collectionView.collectionViewLayout = layout
